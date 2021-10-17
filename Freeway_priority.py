@@ -1,9 +1,11 @@
 from qgis.PyQt import QtGui
 
+#select target filename to be edited
 fn = "C:/Users/George McNamara/Documents/Geospatial Programming/Module_5/QGIS project/select_freeway.shp"
 
 layer = QgsVectorLayer(fn, 'freeway_priority', 'ogr')
 
+#select target file 
 tf = 'ALLVEHS_AA'
 rangeList = []
 opacity = 1
