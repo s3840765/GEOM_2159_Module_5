@@ -59,7 +59,7 @@ maxVal = 19999
 
 lab = 'Priority 4'
 
-color4 = QtGui.QColor('#A4D016 ')
+color4 = QtGui.QColor('#A4D016')
 
 symbol = QgsSymbol.defaultSymbol(layer.geometryType())
 symbol.setColor(color4)
